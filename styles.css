@@ -1,7 +1,7 @@
 body {
     align-items: center;
     justify-content: center;
-    background-color: #292b2c; /* Dark background color */
+    background-color: #292b2c;
     font-family: 'Quicksand', 'Helvetica', Arial, sans-serif;
     margin: 0;
     display: grid;
@@ -12,7 +12,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 2rem;
-    color: #ffffff; /* Blue text color */
+    color: #ffffff;
 }
 
 .wrapper {
@@ -21,9 +21,9 @@ body {
     width: 360px;
     background: 
         linear-gradient(135deg,
-        #3498db, /* Blue */
-        #e67e22, /* Orange */
-        #9b59b6); /* Purple */
+        #3498db,
+        #e67e22,
+        #9b59b6);
     border-radius: 15px;
     font-family: 'Poppins', sans-serif;
 }
@@ -39,7 +39,7 @@ body {
     z-index: 999;
     height: 100px;
     width: 320px;
-    background: #2c3e50; /* Dark background color */
+    background: #2c3e50;
     border-radius: 10px;
     text-align: center;
 }
@@ -52,9 +52,9 @@ body {
     letter-spacing: 1px;
     background: 
         linear-gradient(135deg,
-        #3498db, /* Blue */
-        #e67e22, /* Orange */
-        #9b59b6); /* Purple */
+        #3498db,
+        #e67e22,
+        #9b59b6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
