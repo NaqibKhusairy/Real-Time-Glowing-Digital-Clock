@@ -24,8 +24,8 @@ const updateDateAndDay = () => {
     const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     const currentDate = new Date().toLocaleDateString(undefined, options);
 
-    $currentDate.textContent = currentDate.split(',')[1].trim(); // Extracting and trimming the date
-    $currentDay.textContent = currentDate.split(',')[0].trim(); // Extracting and trimming the day
+    $currentDate.textContent = currentDate.split(',')[1].trim();
+    $currentDay.textContent = currentDate.split(',')[0].trim();
 };
 
 setInterval(() => {
